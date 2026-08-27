@@ -16,12 +16,12 @@ This bash script provides a safe and automated way to replace the contents of a 
 Run the script by providing the target file to be modified, followed by the file containing the new content.
 
 ```bash
-sudo ./replace_file.sh <target_file> <replacement_file>
+sudo ./replacethisfilewith.sh <target_file> <replacement_file>
 ```
 
 ### Example
 ```bash
-sudo ./replace_file.sh /etc/chrony.conf ./chrony.fix.txt
+sudo ./replacethisfilewith.sh /etc/chrony.conf ./chrony.fix.txt
 ```
 
 ## Rollback Instructions
